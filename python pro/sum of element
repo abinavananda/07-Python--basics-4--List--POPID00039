@@ -1,0 +1,8 @@
+def calculate_sum(nums):
+    total_sum = sum(nums)
+    return total_sum
+
+numbers = [1, 2, 3, 4, 5]
+total_sum = calculate_sum(numbers)
+print("List:", numbers)
+print("Sum of Elements:", total_sum)
